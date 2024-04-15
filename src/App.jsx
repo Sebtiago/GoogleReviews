@@ -38,7 +38,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={
             <div className="App">
-              <img src="src/assets/Logo.jpg" alt="Logo Marquesitas" className="w-full md:w-1/2 mx-auto"/>
+              <img src="Logo.jpg" alt="Logo Marquesitas" className="w-full md:w-1/2 mx-auto"/>
 
               {isSubmitted ? (
                 rating === 5 ? <ThankYou /> : <Confirmation />

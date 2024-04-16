@@ -26,7 +26,7 @@ export const saveFeedback = async (rating, feedback) => {
       feedback: feedback,
       date: Timestamp.now()
     });
-    console.log('Feedback saved successfully');
+    console.log('Gracias por enviarnos tu feedback');
   } catch (error) {
     console.error('Error saving feedback:', error);
     throw new Error('Error saving feedback');

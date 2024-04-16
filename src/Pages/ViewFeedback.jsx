@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getAllFeedbacks, deletePreviousMonthFeedbacks } from '../src/Services/feedbackServices';
+import { getAllFeedbacks, deletePreviousMonthFeedbacks } from '../Services/feedbackServices';
 
 const ViewFeedback = () => {
   const [feedbacks, setFeedbacks] = useState([]);
